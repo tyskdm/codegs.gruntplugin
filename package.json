@@ -2,22 +2,22 @@
   "name": "grunt-codegs",
   "description": "The best Grunt plugin ever.",
   "version": "0.0.0",
-  "homepage": "https://github.com/tsuyoshi/codegs.grunt",
+  "homepage": "https://github.com/tsuyoshi/codegs.gruntplugin",
   "author": {
     "name": "Tsuyoshi Kodama",
     "email": "tsuyoshi.kodama@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tsuyoshi/codegs.grunt.git"
+    "url": "git://github.com/tsuyoshi/codegs.gruntplugin.git"
   },
   "bugs": {
-    "url": "https://github.com/tsuyoshi/codegs.grunt/issues"
+    "url": "https://github.com/tsuyoshi/codegs.gruntplugin/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/tsuyoshi/codegs.grunt/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tsuyoshi/codegs.gruntplugin/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -37,5 +37,8 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "codegs": "^0.1.0"
+  }
 }

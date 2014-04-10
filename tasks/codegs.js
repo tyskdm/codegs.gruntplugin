@@ -1,6 +1,6 @@
 /*
  * grunt-codegs
- * https://github.com/tsuyoshi/codegs.grunt
+ * https://github.com/tsuyoshi/codegs.gruntplugin
  *
  * Copyright (c) 2014 Tsuyoshi Kodama
  * Licensed under the MIT license.
