@@ -1,0 +1,2 @@
+require('module').define('/test/case_01/sub.js',
+require('module').runmain('/test/case_01/main.js');
