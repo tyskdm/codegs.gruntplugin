@@ -42,28 +42,10 @@ module.exports = function(grunt) {
         },
         files: {
           'tmp/case_01.js': [
-              'test/case_01/main.js',
-              'test/case_01/sub.js'
+              'test/case_01/'
           ]
         }
       }
-      //case_01: {
-      //  options: {
-      //    packagefile: 'test/case_01/package.json',
-      //    rootdir: '',
-      //    mainfile: '',
-      //    core: '',
-      //    node_core: '',
-      //    node_modules: [],
-      //    kernel: ''
-      //  },
-      //  files: {
-      //    'tmp/case_01.js': [
-      //        'test/case_01/testing',
-      //        'test/case_01/123'
-      //    ]
-      //  }
-      //}
     },
 
     // Unit tests.
