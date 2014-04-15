@@ -36,7 +36,9 @@
     "grunt": "~0.4.4"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "codegs",
+    "googleappsscript"
   ],
   "dependencies": {
     "codegs": "^0.1.0"
