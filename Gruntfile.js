@@ -33,8 +33,8 @@ module.exports = function(grunt) {
       case_01: {
         options: {
           packagefile: null,
-          rootdir: null,
-          mainfile: null,
+          rootdir: 'test/case_01',
+          mainfile: 'test/case_01/main.js',
           core: null,
           node_core: null,
           node_modules: null,

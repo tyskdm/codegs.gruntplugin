@@ -31,13 +31,13 @@ exports.codegs = {
     test.expect(1);
     // console.log('');
 
-    var actual = grunt.file.read('tmp/case_01.js').match(/^require\('module'\)\.(define|runmain)\('(.+)'(,|\);)$/gm);
+    var actual = grunt.file.read('tmp/case_01.js').match(/^require\('module'\)\.(define|runMain)\('(.+)'(,|\);)$/gm);
     // console.log(actual);
 
     var expected = grunt.file.read('test/case_01/expected').split('\n');
     // console.log(expected);
 
-    test.deepEqual(actual, expected, 'should describe what the custom option(s) behavior is.');
+    test.deepEqual(actual, expected, 'Simple case.');
 
     test.done();
   }
